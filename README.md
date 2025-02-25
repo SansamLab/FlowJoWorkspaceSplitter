@@ -1,2 +1,33 @@
-# FlowJoWorkspaceSplitter
-Splits FlowJo workspace (.wsp) XML files into individual files for each sample, removing unnecessary nodes and file path information.
+# FlowJo Workspace Splitter
+
+## Overview
+
+FlowJo Workspace Splitter is a Shiny application designed to help researchers split FlowJo workspace (`.wsp`) files into individual workspace files for each sample. This makes it easier to organize files for depositing on repositories, as FlowJo workspaces often contain additional samples and metadata that researchers may not wish to include.
+
+The application processes `.wsp` files, which are XML-based, and modifies them so that each output file contains only a single sample. It also removes unnecessary elements such as tables and layouts to simplify the workspace.
+
+## How It Works
+
+1. Upload a `.wsp` file containing multiple samples.
+2. The app processes the XML file, keeping only one sample per output workspace.
+3. It removes:
+   - Unnecessary elements such as tables, layouts, and scripts.
+   - Full file paths from `uri` attributes, leaving only the `.fcs` file names.
+4. The processed files are packaged into a zip archive for download.
+
+## Warning
+
+The functionality of this app **depends on the FlowJo XML file structure remaining the same**.  
+It was developed and tested with **FlowJo version 10.9.0**.  
+If FlowJo updates its workspace format, modifications to this app may be required.
+
+## Running the App in RStudio
+
+To install and run the FlowJo Workspace Splitter app directly from RStudio:
+
+```r
+# Install required packages if not already installed
+install.packages(c("shiny", "xml2", "magrittr", "fs"))
+
+# Clone the repository and run the app
+shiny::runGitHub("FlowJoWorkspaceSplitter", "your-github-username")
