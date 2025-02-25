@@ -1,3 +1,14 @@
+[![](https://img.shields.io/badge/Shiny-shinyapps.io-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue)](https://sansamlab.shinyapps.io/SplitFlowJoFile/)
+![Release](https://img.shields.io/github/v/release/sansamcl/FlowJoWorkspaceSplitter)
+![ReleaseDate](https://img.shields.io/github/release-date/sansamcl/FlowJoWorkspaceSplitter)
+![Size](https://img.shields.io/github/repo-size/sansamcl/FlowJoWorkspaceSplitter)
+![License](https://img.shields.io/github/license/sansamcl/FlowJoWorkspaceSplitter)
+![LastCommit](https://img.shields.io/github/last-commit/sansamcl/FlowJoWorkspaceSplitter)
+![Downloads](https://img.shields.io/github/downloads/sansamcl/FlowJoWorkspaceSplitter/total)
+![OpenIssues](https://img.shields.io/github/issues-raw/sansamcl/FlowJoWorkspaceSplitter)
+[![DOI](https://zenodo.org/badge/375552189.svg)](https://zenodo.org/badge/latestdoi/375552189)
+
+
 # FlowJo Workspace Splitter
 
 ## Overview
