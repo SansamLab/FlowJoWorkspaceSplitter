@@ -6,7 +6,7 @@
 ![LastCommit](https://img.shields.io/github/last-commit/SansamLab/FlowJoWorkspaceSplitter)
 ![Downloads](https://img.shields.io/github/downloads/SansamLab/FlowJoWorkspaceSplitter/total)
 ![OpenIssues](https://img.shields.io/github/issues-raw/SansamLab/FlowJoWorkspaceSplitter)
-[![DOI](https://zenodo.org/badge/375552189.svg)](https://zenodo.org/badge/latestdoi/375552189)
+
 
 
 # FlowJo Workspace Splitter
