@@ -12,7 +12,7 @@ The application processes `.wsp` files, which are XML-based, and modifies them s
 2. The app processes the XML file, keeping only one sample per output workspace.
 3. It removes:
    - Unnecessary elements such as tables, layouts, and scripts.
-   - Full file paths from `uri` attributes, leaving only the `.fcs` file names.
+   - Full file paths from `uri` attributes, leaving only the `.fcs` file names. Note that this means that the .wsp file will look for the .fcs file in its own directory.
 4. The processed files are packaged into a zip archive for download.
 
 ## Warning
@@ -30,4 +30,4 @@ To install and run the FlowJo Workspace Splitter app directly from RStudio:
 install.packages(c("shiny", "xml2", "magrittr", "fs"))
 
 # Clone the repository and run the app
-shiny::runGitHub("FlowJoWorkspaceSplitter", "your-github-username")
+shiny::runGitHub("FlowJoWorkspaceSplitter", "SansamLab")
